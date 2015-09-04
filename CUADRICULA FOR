@@ -1,0 +1,41 @@
+int cinco= 30;
+
+void setup(){
+size(500,500);
+
+}
+
+void draw(){
+
+  for (int cinco = 20; cinco < 400; cinco = cinco+30) {
+  line(0,cinco+40,490,cinco+40);
+  line(cinco+60,0,cinco+60,500);
+  
+
+  }
+  
+   
+   
+   for (int cinco = 20; cinco < 370; cinco = cinco+30) {
+   
+   rect(80, cinco +40, 30,30);
+   rect(80+30, cinco +40, 30,30);
+   rect(80+60, cinco +40, 30,30);
+   rect(80+90, cinco +40, 30,30);
+   rect(80+120, cinco +40, 30,30);
+   
+   rect(80+150, cinco +40, 30,30);
+   rect(80+180, cinco +40, 30,30);
+   rect(80+210, cinco +40, 30,30);
+   rect(80+240, cinco +40, 30,30);
+   rect(80+270, cinco +40, 30,30);
+   rect(80+300, cinco +40, 30,30);
+   rect(80+330, cinco +40, 30,30);
+ 
+   
+ 
+   
+   }
+   
+
+}
